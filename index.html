@@ -10,20 +10,54 @@
 
 <body>
   <img src="Imagens/logo.png" alt="Tesla" class="logo">
-  <div class="item">
-    <video src="Imagens/model-y.mp4" autoplay loop muted></video>
 
-    <div class="info-carro">
-      <h1>Model Y</h1>
-      <p class="sub-titulo">Lease starting at $399/mo*</p>
-    </div>
+  <ul class="lista">
 
-    <div class="rodape">
-      <button>Comprar Agora</button>
-      <button class="test-drive">Faça um Test-Drive</button>
-      <p class="texto-rodape">*Excludes taxes and faes with price subject to change. Avaliable in select states.</p>
-    </div>
+    <!-- PARTE 1 -->
+    <li class="item">
+      <video src="Imagens/model-y.mp4" autoplay loop muted></video>
+
+      <div class="info-carro">
+        <h1>Model Y</h1>
+        <p class="sub-titulo">Lease starting at $399/mo*</p>
+      </div>
+
+      <div class="rodape">
+        <button onclick="mostrarForm()">Comprar Agora</button>
+        
+        <button class="test-drive">Faça um Test-Drive</button>
+        <p class="texto-rodape">*Includes taxes and fees subject to change. Available in select states.</p>
+      </div>
+    </li>
+
+    <!-- PARTE 2 -->
+    <li class="item">
+      <img src="Imagens/model-3.png" alt="Model 3" class="img-tesla">
+
+      <div class="info-carro">
+        <h1 class="text_model">Model 3</h1>
+        <p class="sub-titulo sub_model">Lease starting at $399/mo*</p>
+      </div>
+
+      
+    </li>
+
+    <!-- PARTE 3 -->
+    <li class="item">
+      <img src="Imagens/model-x.png" alt="Model X" class="img-tesla">
+
+      <div class="info-carro">
+        <h1 class="text_model">Model X</h1>
+        <p class="sub-titulo sub_model">Lease starting at $399/mo*</p>
+      </div>
+    </li>
+  </ul>
+
+  <div class="form">
+    <button onclick="fecharForm()">Fechar</button>
+    <script type="text/javascript" src="https://form.jotform.com/jsform/241967091319059"></script>
   </div>
 </body>
+<script src="script.js"></script>
 
 </html>
