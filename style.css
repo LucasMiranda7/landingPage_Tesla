@@ -58,7 +58,8 @@ h1 {
 }
 
 .rodape {
-text-align: center;
+  text-align: center;
+  transform: translate(0, -50%);
 }
 
 button {
@@ -98,7 +99,7 @@ p.sub_model {
   width: 600px;
   height: 100%;
   z-index: 3;
-  left: -50%;
+  left: -100%;
   transform: translate(-50%);
   transition: 1s;
 }
